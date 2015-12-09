@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79B938901C17F070007C7E1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B9388F1C17F070007C7E1B /* main.m */; };
+		79B938931C17F070007C7E1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938921C17F070007C7E1B /* AppDelegate.m */; };
+		79B938961C17F070007C7E1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938951C17F070007C7E1B /* ViewController.m */; };
+		79B938991C17F070007C7E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B938971C17F070007C7E1B /* Main.storyboard */; };
+		79B9389B1C17F070007C7E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B9389A1C17F070007C7E1B /* Assets.xcassets */; };
+		79B9389E1C17F070007C7E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B9389C1C17F070007C7E1B /* LaunchScreen.storyboard */; };
+		79B938A91C17F070007C7E1B /* ORoundRingSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938A81C17F070007C7E1B /* ORoundRingSimpleTests.m */; };
+		79B938B41C17F070007C7E1B /* ORoundRingSimpleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938B31C17F070007C7E1B /* ORoundRingSimpleUITests.m */; };
+		79B938C81C17F0EB007C7E1B /* ZPGoalBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938C71C17F0EB007C7E1B /* ZPGoalBar.m */; };
+		79B938CB1C17F122007C7E1B /* ZPBarGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938CA1C17F122007C7E1B /* ZPBarGraph.m */; };
+		79B938CE1C17F149007C7E1B /* ZPGoalBarPercentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B938CD1C17F149007C7E1B /* ZPGoalBarPercentLayer.m */; };
+		79B938DC1C180D64007C7E1B /* circle_outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D01C180D64007C7E1B /* circle_outline.png */; };
+		79B938DD1C180D64007C7E1B /* circle_outline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D11C180D64007C7E1B /* circle_outline@2x.png */; };
+		79B938DE1C180D64007C7E1B /* circle_outline_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D21C180D64007C7E1B /* circle_outline_pressed.png */; };
+		79B938DF1C180D64007C7E1B /* circle_outline_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D31C180D64007C7E1B /* circle_outline_pressed@2x.png */; };
+		79B938E01C180D64007C7E1B /* circle_ridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D41C180D64007C7E1B /* circle_ridge.png */; };
+		79B938E11C180D64007C7E1B /* circle_ridge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D51C180D64007C7E1B /* circle_ridge@2x.png */; };
+		79B938E21C180D64007C7E1B /* circle_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D61C180D64007C7E1B /* circle_thumb.png */; };
+		79B938E31C180D64007C7E1B /* circle_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D71C180D64007C7E1B /* circle_thumb@2x.png */; };
+		79B938E41C180D64007C7E1B /* graph_week.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D81C180D64007C7E1B /* graph_week.png */; };
+		79B938E51C180D64007C7E1B /* graph_week@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938D91C180D64007C7E1B /* graph_week@2x.png */; };
+		79B938E61C180D64007C7E1B /* graph_year.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938DA1C180D64007C7E1B /* graph_year.png */; };
+		79B938E71C180D64007C7E1B /* graph_year@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B938DB1C180D64007C7E1B /* graph_year@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79B938A51C17F070007C7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B938831C17F06F007C7E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B9388A1C17F070007C7E1B;
+			remoteInfo = ORoundRingSimple;
+		};
+		79B938B01C17F070007C7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79B938831C17F06F007C7E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B9388A1C17F070007C7E1B;
+			remoteInfo = ORoundRingSimple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79B9388B1C17F070007C7E1B /* ORoundRingSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORoundRingSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B9388F1C17F070007C7E1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79B938911C17F070007C7E1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79B938921C17F070007C7E1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79B938941C17F070007C7E1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79B938951C17F070007C7E1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79B938981C17F070007C7E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79B9389A1C17F070007C7E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79B9389D1C17F070007C7E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79B9389F1C17F070007C7E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B938A41C17F070007C7E1B /* ORoundRingSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORoundRingSimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B938A81C17F070007C7E1B /* ORoundRingSimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORoundRingSimpleTests.m; sourceTree = "<group>"; };
+		79B938AA1C17F070007C7E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B938AF1C17F070007C7E1B /* ORoundRingSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORoundRingSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B938B31C17F070007C7E1B /* ORoundRingSimpleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORoundRingSimpleUITests.m; sourceTree = "<group>"; };
+		79B938B51C17F070007C7E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B938C61C17F0EB007C7E1B /* ZPGoalBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPGoalBar.h; sourceTree = "<group>"; };
+		79B938C71C17F0EB007C7E1B /* ZPGoalBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPGoalBar.m; sourceTree = "<group>"; };
+		79B938C91C17F122007C7E1B /* ZPBarGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPBarGraph.h; sourceTree = "<group>"; };
+		79B938CA1C17F122007C7E1B /* ZPBarGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPBarGraph.m; sourceTree = "<group>"; };
+		79B938CC1C17F149007C7E1B /* ZPGoalBarPercentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPGoalBarPercentLayer.h; sourceTree = "<group>"; };
+		79B938CD1C17F149007C7E1B /* ZPGoalBarPercentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPGoalBarPercentLayer.m; sourceTree = "<group>"; };
+		79B938D01C180D64007C7E1B /* circle_outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_outline.png; sourceTree = "<group>"; };
+		79B938D11C180D64007C7E1B /* circle_outline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_outline@2x.png"; sourceTree = "<group>"; };
+		79B938D21C180D64007C7E1B /* circle_outline_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_outline_pressed.png; sourceTree = "<group>"; };
+		79B938D31C180D64007C7E1B /* circle_outline_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_outline_pressed@2x.png"; sourceTree = "<group>"; };
+		79B938D41C180D64007C7E1B /* circle_ridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_ridge.png; sourceTree = "<group>"; };
+		79B938D51C180D64007C7E1B /* circle_ridge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_ridge@2x.png"; sourceTree = "<group>"; };
+		79B938D61C180D64007C7E1B /* circle_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_thumb.png; sourceTree = "<group>"; };
+		79B938D71C180D64007C7E1B /* circle_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_thumb@2x.png"; sourceTree = "<group>"; };
+		79B938D81C180D64007C7E1B /* graph_week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_week.png; sourceTree = "<group>"; };
+		79B938D91C180D64007C7E1B /* graph_week@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph_week@2x.png"; sourceTree = "<group>"; };
+		79B938DA1C180D64007C7E1B /* graph_year.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_year.png; sourceTree = "<group>"; };
+		79B938DB1C180D64007C7E1B /* graph_year@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph_year@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B938881C17F070007C7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938A11C17F070007C7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938AC1C17F070007C7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B938821C17F06F007C7E1B = {
+			isa = PBXGroup;
+			children = (
+				79B9388D1C17F070007C7E1B /* ORoundRingSimple */,
+				79B938A71C17F070007C7E1B /* ORoundRingSimpleTests */,
+				79B938B21C17F070007C7E1B /* ORoundRingSimpleUITests */,
+				79B9388C1C17F070007C7E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79B9388C1C17F070007C7E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B9388B1C17F070007C7E1B /* ORoundRingSimple.app */,
+				79B938A41C17F070007C7E1B /* ORoundRingSimpleTests.xctest */,
+				79B938AF1C17F070007C7E1B /* ORoundRingSimpleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79B9388D1C17F070007C7E1B /* ORoundRingSimple */ = {
+			isa = PBXGroup;
+			children = (
+				79B938CF1C180D64007C7E1B /* images */,
+				79B938C51C17F0EB007C7E1B /* ZPCustom */,
+				79B938911C17F070007C7E1B /* AppDelegate.h */,
+				79B938921C17F070007C7E1B /* AppDelegate.m */,
+				79B938941C17F070007C7E1B /* ViewController.h */,
+				79B938951C17F070007C7E1B /* ViewController.m */,
+				79B938971C17F070007C7E1B /* Main.storyboard */,
+				79B9389A1C17F070007C7E1B /* Assets.xcassets */,
+				79B9389C1C17F070007C7E1B /* LaunchScreen.storyboard */,
+				79B9389F1C17F070007C7E1B /* Info.plist */,
+				79B9388E1C17F070007C7E1B /* Supporting Files */,
+			);
+			path = ORoundRingSimple;
+			sourceTree = "<group>";
+		};
+		79B9388E1C17F070007C7E1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B9388F1C17F070007C7E1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79B938A71C17F070007C7E1B /* ORoundRingSimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				79B938A81C17F070007C7E1B /* ORoundRingSimpleTests.m */,
+				79B938AA1C17F070007C7E1B /* Info.plist */,
+			);
+			path = ORoundRingSimpleTests;
+			sourceTree = "<group>";
+		};
+		79B938B21C17F070007C7E1B /* ORoundRingSimpleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79B938B31C17F070007C7E1B /* ORoundRingSimpleUITests.m */,
+				79B938B51C17F070007C7E1B /* Info.plist */,
+			);
+			path = ORoundRingSimpleUITests;
+			sourceTree = "<group>";
+		};
+		79B938C51C17F0EB007C7E1B /* ZPCustom */ = {
+			isa = PBXGroup;
+			children = (
+				79B938C61C17F0EB007C7E1B /* ZPGoalBar.h */,
+				79B938C71C17F0EB007C7E1B /* ZPGoalBar.m */,
+				79B938C91C17F122007C7E1B /* ZPBarGraph.h */,
+				79B938CA1C17F122007C7E1B /* ZPBarGraph.m */,
+				79B938CC1C17F149007C7E1B /* ZPGoalBarPercentLayer.h */,
+				79B938CD1C17F149007C7E1B /* ZPGoalBarPercentLayer.m */,
+			);
+			path = ZPCustom;
+			sourceTree = "<group>";
+		};
+		79B938CF1C180D64007C7E1B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79B938D01C180D64007C7E1B /* circle_outline.png */,
+				79B938D11C180D64007C7E1B /* circle_outline@2x.png */,
+				79B938D21C180D64007C7E1B /* circle_outline_pressed.png */,
+				79B938D31C180D64007C7E1B /* circle_outline_pressed@2x.png */,
+				79B938D41C180D64007C7E1B /* circle_ridge.png */,
+				79B938D51C180D64007C7E1B /* circle_ridge@2x.png */,
+				79B938D61C180D64007C7E1B /* circle_thumb.png */,
+				79B938D71C180D64007C7E1B /* circle_thumb@2x.png */,
+				79B938D81C180D64007C7E1B /* graph_week.png */,
+				79B938D91C180D64007C7E1B /* graph_week@2x.png */,
+				79B938DA1C180D64007C7E1B /* graph_year.png */,
+				79B938DB1C180D64007C7E1B /* graph_year@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79B9388A1C17F070007C7E1B /* ORoundRingSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B938B81C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimple" */;
+			buildPhases = (
+				79B938871C17F070007C7E1B /* Sources */,
+				79B938881C17F070007C7E1B /* Frameworks */,
+				79B938891C17F070007C7E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORoundRingSimple;
+			productName = ORoundRingSimple;
+			productReference = 79B9388B1C17F070007C7E1B /* ORoundRingSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79B938A31C17F070007C7E1B /* ORoundRingSimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B938BB1C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimpleTests" */;
+			buildPhases = (
+				79B938A01C17F070007C7E1B /* Sources */,
+				79B938A11C17F070007C7E1B /* Frameworks */,
+				79B938A21C17F070007C7E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B938A61C17F070007C7E1B /* PBXTargetDependency */,
+			);
+			name = ORoundRingSimpleTests;
+			productName = ORoundRingSimpleTests;
+			productReference = 79B938A41C17F070007C7E1B /* ORoundRingSimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79B938AE1C17F070007C7E1B /* ORoundRingSimpleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B938BE1C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimpleUITests" */;
+			buildPhases = (
+				79B938AB1C17F070007C7E1B /* Sources */,
+				79B938AC1C17F070007C7E1B /* Frameworks */,
+				79B938AD1C17F070007C7E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B938B11C17F070007C7E1B /* PBXTargetDependency */,
+			);
+			name = ORoundRingSimpleUITests;
+			productName = ORoundRingSimpleUITests;
+			productReference = 79B938AF1C17F070007C7E1B /* ORoundRingSimpleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79B938831C17F06F007C7E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = WangZhipeng;
+				TargetAttributes = {
+					79B9388A1C17F070007C7E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					79B938A31C17F070007C7E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 79B9388A1C17F070007C7E1B;
+					};
+					79B938AE1C17F070007C7E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 79B9388A1C17F070007C7E1B;
+					};
+				};
+			};
+			buildConfigurationList = 79B938861C17F06F007C7E1B /* Build configuration list for PBXProject "ORoundRingSimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79B938821C17F06F007C7E1B;
+			productRefGroup = 79B9388C1C17F070007C7E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79B9388A1C17F070007C7E1B /* ORoundRingSimple */,
+				79B938A31C17F070007C7E1B /* ORoundRingSimpleTests */,
+				79B938AE1C17F070007C7E1B /* ORoundRingSimpleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79B938891C17F070007C7E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B938E71C180D64007C7E1B /* graph_year@2x.png in Resources */,
+				79B938E21C180D64007C7E1B /* circle_thumb.png in Resources */,
+				79B9389E1C17F070007C7E1B /* LaunchScreen.storyboard in Resources */,
+				79B938DF1C180D64007C7E1B /* circle_outline_pressed@2x.png in Resources */,
+				79B9389B1C17F070007C7E1B /* Assets.xcassets in Resources */,
+				79B938E31C180D64007C7E1B /* circle_thumb@2x.png in Resources */,
+				79B938DC1C180D64007C7E1B /* circle_outline.png in Resources */,
+				79B938E51C180D64007C7E1B /* graph_week@2x.png in Resources */,
+				79B938E61C180D64007C7E1B /* graph_year.png in Resources */,
+				79B938991C17F070007C7E1B /* Main.storyboard in Resources */,
+				79B938DD1C180D64007C7E1B /* circle_outline@2x.png in Resources */,
+				79B938E11C180D64007C7E1B /* circle_ridge@2x.png in Resources */,
+				79B938DE1C180D64007C7E1B /* circle_outline_pressed.png in Resources */,
+				79B938E41C180D64007C7E1B /* graph_week.png in Resources */,
+				79B938E01C180D64007C7E1B /* circle_ridge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938A21C17F070007C7E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938AD1C17F070007C7E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79B938871C17F070007C7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B938C81C17F0EB007C7E1B /* ZPGoalBar.m in Sources */,
+				79B938CB1C17F122007C7E1B /* ZPBarGraph.m in Sources */,
+				79B938CE1C17F149007C7E1B /* ZPGoalBarPercentLayer.m in Sources */,
+				79B938961C17F070007C7E1B /* ViewController.m in Sources */,
+				79B938931C17F070007C7E1B /* AppDelegate.m in Sources */,
+				79B938901C17F070007C7E1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938A01C17F070007C7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B938A91C17F070007C7E1B /* ORoundRingSimpleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B938AB1C17F070007C7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B938B41C17F070007C7E1B /* ORoundRingSimpleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79B938A61C17F070007C7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B9388A1C17F070007C7E1B /* ORoundRingSimple */;
+			targetProxy = 79B938A51C17F070007C7E1B /* PBXContainerItemProxy */;
+		};
+		79B938B11C17F070007C7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B9388A1C17F070007C7E1B /* ORoundRingSimple */;
+			targetProxy = 79B938B01C17F070007C7E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79B938971C17F070007C7E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B938981C17F070007C7E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79B9389C1C17F070007C7E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79B9389D1C17F070007C7E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79B938B61C17F070007C7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79B938B71C17F070007C7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79B938B91C17F070007C7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORoundRingSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79B938BA1C17F070007C7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORoundRingSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79B938BC1C17F070007C7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ORoundRingSimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimpleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORoundRingSimple.app/ORoundRingSimple";
+			};
+			name = Debug;
+		};
+		79B938BD1C17F070007C7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ORoundRingSimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimpleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORoundRingSimple.app/ORoundRingSimple";
+			};
+			name = Release;
+		};
+		79B938BF1C17F070007C7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ORoundRingSimpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimpleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ORoundRingSimple;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79B938C01C17F070007C7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ORoundRingSimpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comcsoft.ORoundRingSimpleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ORoundRingSimple;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B938861C17F06F007C7E1B /* Build configuration list for PBXProject "ORoundRingSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B938B61C17F070007C7E1B /* Debug */,
+				79B938B71C17F070007C7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B938B81C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B938B91C17F070007C7E1B /* Debug */,
+				79B938BA1C17F070007C7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79B938BB1C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B938BC1C17F070007C7E1B /* Debug */,
+				79B938BD1C17F070007C7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79B938BE1C17F070007C7E1B /* Build configuration list for PBXNativeTarget "ORoundRingSimpleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B938BF1C17F070007C7E1B /* Debug */,
+				79B938C01C17F070007C7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79B938831C17F06F007C7E1B /* Project object */;
+}

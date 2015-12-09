@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ku-Lc-vOs" customClass="ZPGoalBar">
+                                <rect key="frame" x="225" y="70" width="150" height="150"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.34901961679999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Kma-Fx-tDR"/>
+                                    <constraint firstAttribute="height" constant="150" id="uDA-wd-Fe8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFg-Zb-9V9" customClass="ZPGoalBar">
+                                <rect key="frame" x="175" y="270" width="250" height="250"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.34901961679999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="7dQ-Zh-m4H"/>
+                                    <constraint firstAttribute="width" constant="250" id="xcs-A6-ruT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rFg-Zb-9V9" firstAttribute="top" secondItem="4ku-Lc-vOs" secondAttribute="bottom" constant="50" id="5rt-Ld-Dgg"/>
+                            <constraint firstItem="4ku-Lc-vOs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Njh-Tn-fwG"/>
+                            <constraint firstItem="4ku-Lc-vOs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jNH-og-Vuc"/>
+                            <constraint firstItem="rFg-Zb-9V9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zok-XI-PmL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstGoalBar" destination="4ku-Lc-vOs" id="gic-gd-9ua"/>
+                        <outlet property="secondGoalBar" destination="rFg-Zb-9V9" id="k82-tp-26r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
